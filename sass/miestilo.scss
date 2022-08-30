@@ -657,3 +657,34 @@ form {
     }
 
 }
+
+.redes{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+   
+
+
+}
+
+.redesSocial{
+    @extend .redes;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@mixin sizes ($width, $height) {
+    
+    height: $height;
+    width: $width;
+}
+
+.miMixin{
+@include sizes(20px, 20px )
+}
+
+.miMixin{
+    margin: 0 50%;
+}
+
+
+
