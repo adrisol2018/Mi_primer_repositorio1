@@ -45,7 +45,7 @@
           </a>
         </li>
          <li class="nav-item">
-          <a href="./secciones/capacitaciones.html" class="barra">Contacto
+          <a href="./secciones/contacto.html" class="barra">Contacto
           </a>
         </li>
       </ul>
@@ -57,17 +57,39 @@
 
   </header>
   <main>
-    <section class="img_main">
-      <div class="img_section">
-      <img src="./img/what-is-kaizen.png" alt="Kaizen" class="imagenn" />
-   
-      </div >
-      <div class="video_section">
-      <iframe width="300" height="200" src="https://www.youtube.com/embed/Q7yNIVlIw_c" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen class="iframe_video" ></iframe>
-        </div>
-    </section>
+    <div class="carouselContainer">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/what-is-kaizen.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/personas2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/ideas.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+  </div>
+    <div class="textoKaizen">
+      <p class="texto1">La palabra «kaizen» significa «mejora», un cambio beneficioso que se alcanza paso a paso. El vocablo se forma uniendo dos conceptos: «kai» (cambio) y «zen» (bondad)</p>
+      <p class="texto2">
+        El método se basa en realizar una serie de acciones sencillas en las que participan todos los trabajadores de una empresa para detectar problemas y darles solución. Todos los procesos empresariales son revisados para optimizarlos.
+      </p>
+      <p class="texto3">
+        Para el método Kaizen, hay que desterrar la complacencia, aprender a reconocer las demandas del cliente, eliminar los desperdicios y optimizar el tiempo. La mejora de los estándares de productividad, costes y calidad es otro pilar básico de este sistema.
+      </p>
+    </div>
   </main>
     <footer>
      
@@ -86,6 +108,7 @@
         </div>
        
       </div>
+      <div class="todoPie">
       <div class="iconos">
         <div class="Mixin">
         <img src="./img/ubicacion.png" alt="" class="miMixin">
@@ -112,9 +135,11 @@
         <p class="redesSocial">54 9 11 2303 8736 (Solo Whatsapp)</p>
       </div>
       </div>
+      </div>
        <div>
           <p class="pieDePag">© 2022 KaizenBusca, todos los derechos reservados.</p>
         </div>
+        
     </footer>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
