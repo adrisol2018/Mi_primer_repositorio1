@@ -5,14 +5,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Organización dedicada a capacitación y vinculación de personas con empresas de alto potencial">
+  <link rel="icon" href="./img/kaizen-logo.png" sizes="192x192">
   <title>Kaizen Busca</title>
-  
- 
-  <!--Css Bootstrap--->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-<!--Css Main-->
-<link rel="stylesheet" href="./css/miestilo.css" />
+
+  <!--Css Bootstrap--->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!--Css Main-->
+  <link rel="stylesheet" href="./css/miestilo.css" />
 </head>
 
 <body>
@@ -20,129 +23,150 @@
     <h1 class="titulo">Kaizen Busca</h1>
 
     <!--nav bootstrap-->
-    <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a href="./secciones/empleadores.html" class="barra">Empleadores</a>
-        </li>
-        <li class="nav-item">
-         <a href="./secciones/postulados.html" class="barra">Postulados</a>
-        </li>
-        <li class="nav-item">
-          <a href="./secciones/colaboradores.html" class="barra">Colaboradores</a>
-        </li>
-        <li class="nav-item">
-          <a href="./secciones/capacitaciones.html" class="barra">Capacitaciones
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="./secciones/mision.html" class="barra">Misión-Visión
-          </a>
-        </li>
-         <li class="nav-item">
-          <a href="./secciones/contacto.html" class="barra">Contacto
-          </a>
-        </li>
-      </ul>
-      
+    <div class="containerBarra">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="./secciones/empleadores.html" class="barra">Empleadores</a>
+              </li>
+              <li class="nav-item">
+                <a href="./secciones/postulados.html" class="barra">Postulados</a>
+              </li>
+              <li class="nav-item">
+                <a href="./secciones/colaboradores.html" class="barra">Colaboradores</a>
+              </li>
+              <li class="nav-item">
+                <a href="./secciones/capacitaciones.html" class="barra">Capacitaciones
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./secciones/mision.html" class="barra">Misión-Visión
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./secciones/contacto.html" class="barra">Contacto
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
     </div>
-  </div>
-</nav>
-<!--Bootstrap-->
+    </nav>
+    <!--Bootstrap-->
 
   </header>
-  <main>
+  <main class="carrousel">
     <div class="carouselContainer">
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/what-is-kaizen.png" class="d-block w-100" alt="...">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/what-is-kaizen.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/cropped-logo-nuevo-kaizen.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/mejora.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="./img/personas2.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
-      <img src="./img/ideas.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-  </div>
     <div class="textoKaizen">
-      <p class="texto1">La palabra «kaizen» significa «mejora», un cambio beneficioso que se alcanza paso a paso. El vocablo se forma uniendo dos conceptos: «kai» (cambio) y «zen» (bondad)</p>
+      <p class="texto1">La palabra «kaizen» significa «mejora», un cambio beneficioso que se alcanza paso a paso. El
+        vocablo se forma uniendo dos conceptos: «kai» (cambio) y «zen» (bondad).</p>
+        <div img_index1>
+          <img src="./img/reunion.jpg" alt="" class="reunion">
+        </div>
       <p class="texto2">
-        El método se basa en realizar una serie de acciones sencillas en las que participan todos los trabajadores de una empresa para detectar problemas y darles solución. Todos los procesos empresariales son revisados para optimizarlos.
+        El método se basa en realizar una serie de acciones sencillas en las que participan todos los trabajadores de
+        una empresa para detectar problemas y darles solución. Todos los procesos empresariales son revisados para
+        optimizarlos.
       </p>
+      <div img_index2>
+          <img src="./img/9.jpg" alt="" class="reunion2">
+        </div>
       <p class="texto3">
-        Para el método Kaizen, hay que desterrar la complacencia, aprender a reconocer las demandas del cliente, eliminar los desperdicios y optimizar el tiempo. La mejora de los estándares de productividad, costes y calidad es otro pilar básico de este sistema.
+        Para el método Kaizen, hay que desterrar la complacencia, aprender a reconocer las demandas del cliente,
+        eliminar los desperdicios y optimizar el tiempo. La mejora de los estándares de productividad, costes y calidad
+        es otro pilar básico de este sistema.
       </p>
     </div>
   </main>
-    <footer>
-     
-      <div class="footer_container">
-        <div class="instagram">
-          <img src="./img/instagram (1).png" alt="" class="icon" />
-        </div>
-        <div class="facebook">
-         <img src="./img/facebook.png" alt="" class="icon" />
-        </div>
-        <div class="telegram">
-         <img src="./img/telegrama.png" alt="" class="icon" />
-        </div>
-        <div class="twitter">
-          <img src="./img/logotipo-de-twitter.png" alt="" class="icon" />
-        </div>
-       
+  <footer>
+
+    <div class="footer_container">
+      <div class="instagram">
+        <img src="./img/instagram (1).png" alt="" class="icon" />
       </div>
-      <div class="todoPie">
-      <div class="iconos">
-        <div class="Mixin">
-        <img src="./img/ubicacion.png" alt="" class="miMixin">
-        </div>
-        <div class="Mixin">
-        <img src="./img/correo-electronico.png" alt="" class="miMixin">
-        </div>
-        <div class="Mixin">
-        <img src="./img/whatsapp.png" alt="" class="miMixin">
-        </div>
+      
+      <div class="facebook">
+        <img src="./img/facebook.png" alt="" class="icon" />
       </div>
-      <div class="redesSociales">
-         <div>
-          <p class="redesSocial">
-            Buenos Aires, Argentina.
-          </p>
-         </div>
-      <div>
-        <p class="redesSocial">
-          Kaizen_Busca@gmail.com
-        </p>
+      <div class="telegram">
+        <img src="./img/telegrama.png" alt="" class="icon" />
       </div>
-      <div >
-        <p class="redesSocial">54 9 11 2303 8736 (Solo Whatsapp)</p>
+      <div class="twitter">
+        <img src="./img/logotipo-de-twitter.png" alt="" class="icon" />
+      </div>
+    </div>
+
+    <div class="footer2">
+      <div></div>
+ 
+
+   
+<div>
+   
+<div class="imagenesRedes">
+  <div class="nombres">
+      <p class="redesSocial1">
+        Buenos Aires, Argentina.
+      </p>
+      <div class="Mixin1">
+        <img src="./img/mapa.png" alt="" class="miMixin">
+      </div>
+    <div class="redSocial">
+      <p class="redesSocial2">
+        Kaizen_Busca@gmail.com
+      </p>
+    </div>
+      <div class="Mixin2">
+        <img src="./img/correo-electronico (1).png" alt="" class="miMixin">
+      </div>
+ <div class="redSocial">
+      <p class="redesSocial3">54 9 11 2303 8736 (Solo Whatsapp)</p>
+    </div>
+      <div class="Mixin3">
+        <img src="./img/whatsapp (1).png" alt="" class="miMixin">
       </div>
       </div>
-      </div>
-       <div>
-          <p class="pieDePag">© 2022 KaizenBusca, todos los derechos reservados.</p>
-        </div>
-        
-    </footer>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+</div>
+ <div class="redSocial">
+      <p class="pieDePag">© 2022 KaizenBusca, todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
